@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #e5cd99d9;
+   
+    
+}
+.signup_border{
+    border: 1px solid rgb(255, 215, 222);
+    border-radius: 10px;
+    padding: 20px;
+   /* width: 70%; */
+   /* margin-top: 30px; */
+  box-shadow: 1px 1px 20px   rgb(255, 215, 222) ;
+}
+ 
+.signup_login{
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+@font-face {
+    font-family:Roboto-Regular;
+    src: url(../Roboto/Roboto-Regular.ttf);
+}
+
+
+@font-face {
+    font-family:Roboto-Bold;
+    src: url(../Roboto/Roboto-Bold.ttf);
+}
+
+.Roboto_F_R{
+    font-family:Roboto-Regular;
+
+}
+.Roboto_F_B{
+    font-family:Roboto-Bold;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+.logo{
+    font-family: 'Gluten', cursive;
+    
+}
+.signup_Center2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .signup_Center2{
+        margin: 0;
+        /* margin-bottom: 100px; */
+    }
+}
+#message{
+    position: absolute;
+    bottom: 20px;
+    width: auto;
+    max-width: 80%;
+    background-color:rgb(251, 174, 188);
+    border-radius: 10px;
+    padding: 10px;
+    display: none;
+ text-shadow: 1px 1px 20px  black;
+ color: rgb(255, 255, 255);
+}
+
+.font_size{
+    font-size: 20px;
+}
+

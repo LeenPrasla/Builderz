@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../CSS/login.css">
+    <link rel="icon" type="image/png" href="../images/index.png" />
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-auth.js"></script>
+    <script src="./../js/firebaselink.js"></script>
+</head>
+<body>
+  <div class="signup_main">
+
+    <div class="signup_Center">
+  
+        <div class="container signup_border">
+            <form>
+                 
+    
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label Roboto_F_R">Email address</label>
+                  <input type="email" class="form-control form_input" id="Email" aria-describedby="emailHelp">
+                
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label Roboto_F_R">Password</label>
+                  <input type="password" class="form-control form_input" id="Password">
+                </div>
+               
+                <div class="d-grid gap-2" style="margin-top: 10px;">
+                    <button class="btn btn-primary Roboto_F_B" type="button" onclick="loginData()">Log In</button>
+                   
+                  </div>
+                <p class="signup_login Roboto_F_R ">Not a Member? <a class="Roboto_F_B" href="./signUp.html">Sign Up</a></p>
+              </form>
+        </div>
+     
+     </div>
+    </div>
+    <div style="align-items:center ; display: flex; justify-content: center;">
+        <p id="message" class="Roboto_F_B">hi</p>
+       </div> 
+    </div>
+</body>
+<script src="./../js/login.js"></script>
+</html>

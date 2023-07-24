@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+/* linking */
+#linking{
+    color: white;
+    text-decoration: none;
+}
+#linking:hover{
+     color: #fdbe33;
+}
+/* linking *
+
+ /* .....header css.... */
+#a{
+    border: 1px solid ;
+    width: 100%;
+    height: 400px;
+    background-color: #fdbe33;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#sub_header_data{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -320px;
+}
+h1{
+    font-size: 50px;
+    display: inline;
+    margin-left: 80px;
+    margin-top: -300px;
+}
+ .image{
+    margin-left: 80px;
+    margin-right: 10px;
+}
+.a1{
+    font-weight: bold;
+}
+
+    /* .....header css end.... */
+
+    /* ........navbar css start...... */
+#navbar-maindiv{
+       position: sticky;
+       top: 0px;
+}
+#navbar-item-div
+{
+    border: 1px solid #030f27;
+    background-color: #030f27;
+    color: white;
+    font-size: 15px;
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    margin-top:-320px;
+    
+}
+#navbar-item
+{
+    display: flex;
+    list-style: none;
+}
+.navbar-list{
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 1px;
+}
+.navbar-list:hover
+{
+  color: #fdbe33;  
+}
+#navbar-button{
+    padding: 6px;
+    margin-left: 600px;
+    margin-top: -15px;
+    border: 2px solid white;
+    background-color: #030f27;
+    color: white;
+}
+#navbar-button:hover{
+         color: black;
+         background-color: #fdbe33;
+}
+      /* ...... navbar css end..... */
+
+     /* ...... under navbar css start... */
+#about-us{
+    text-align: center;
+    margin-top: 50px;
+}
+#about-font{
+    font-size: 65px;
+    font-weight:bolder;
+    display: block;
+}
+#about-font1{
+      font-size: 20px;
+}
+      /* ....under navbar css end.. */
+
+      /* ....center pic css start... */
+
+#img_2{
+    margin: -15px 30px 70px 40px;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+#h3{
+    color: #fdbe33;
+    font-weight: bold;
+    margin-top: 140px;
+}
+#bold{
+    font-size: 35px;
+    font-weight: bold;
+    display: block;
+}
+#bold2{
+    line-height: 5px;
+}
+#button_3{
+    background-color: #fdbe33;
+    border: 1px solid #fdbe33;
+    font-weight: bolder;
+    width: 150px;
+    padding: 18px;
+    display: block;
+    margin-top: 30px;
+}
+#button_3:hover{
+  background-color: #030f27;
+  color:#fdbe33;
+}
+#bigimage{
+    margin: 90px;
+}
+          /* ......center pic css end... */
+
+        /* ........ two cards css start .... */
+#two-card-subdiv1
+   {
+        border: 1px solid #030f27;
+        background-color: #030f27;
+        height: 150px;
+        width: 10%;
+        
+}
+#two-card-subdiv2
+{
+    border: 1px solid #fdbe33;
+    background-color: #fdbe33;
+    height: 150px;
+    width: 30%;
+}
+#two-card-maindiv{
+        display: flex;
+}
+#card-image1{
+    margin: 30px;
+    margin-left: 8px;
+}
+#card-image2{
+       margin: 30px;
+       margin-left: 10px;
+} 
+       /* .....two card css end... */
+
+        /* ....under two card css start.... */
+#under-team-font
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+ #under-team1
+ {
+    color: #fdbe33;
+    text-align: center;
+    margin-left: 40px;
+}
+#under-team2
+{
+    font-size: 60px;
+}
+#question1{
+    border: 1px solid #d7dbe2;
+    background-color:transparent;
+    width: 40%;
+    height: 70px;
+    margin: 10px;
+    margin-left: 65px;
+    float: left;
+}
+#question1-font{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+/* ....under card css end... */
+
+/* footer */
+#footer{
+    border: 1px solid #030f27;
+    background-color: #030f27;
+    width: 100%;
+    height: 500px;
+    margin-top: 550px;
+}
+
+#footer-data{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+.zip{
+    color: #fdbe33;
+   font-size: 25px;
+   margin-top: 80px;
+}
+#logo1{
+    /* display: block; */
+    margin-top: 20px;
+}
+#logo1-font{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+}
+#logo2-font{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#logo3-font{
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+#twitter{
+    border: 1px solid white;
+    border-radius: 100px;
+    background: transparent;
+}
+#facebook{
+    border: 1px solid white;
+    border-radius: 100px;
+    background: transparent;
+}
+#youtube{
+    border: 1px solid white;
+    border-radius: 100px;
+    background: transparent;
+
+}
+#instagram{
+    border: 1px solid white;
+    border-radius: 100px;
+    background: transparent;
+}
+.zaa{
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+}
+.zaa:hover{
+    color: #fdbe33;
+}
+.zaaa{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+}
+#input1{
+    padding: 10px;
+}
+#a22{
+    padding:10px;
+    color: #fdbe33;
+    background-color: black;
+}
+#a22:hover{
+    color: black;
+    background-color: #fdbe33;
+}
+#last{
+     border-top: 1px solid slategrey;
+     border-bottom:1px solid slategrey ;
+    width: 90%;
+    margin: auto;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+
+    
+}
+#zoo:hover{
+    color: #fdbe33;
+}
+#zoo{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: 170px;
+    margin-top: 10px;
+     
+}
+#zoo1:hover{
+    color: #fdbe33;
+}
+#zoo1{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right:20px ;
+}
+/* two cards */
+#two-card-subdiv1
+   {
+        border: 1px solid #030f27;
+        background-color: #030f27;
+        height: 150px;
+        width: 50%;
+}
+#two-card-subdiv2
+{
+    border: 1px solid #fdbe33;
+    background-color: #fdbe33;
+    height: 150px;
+    width: 50%;
+}
+#two-card-maindiv{
+        display: flex;
+}
+#card-image1{
+    margin: 30px;
+    margin-left: 8px;
+}
+#card-image2{
+       margin: 30px;
+       margin-left: 70px;
+} 
+
+

@@ -1,0 +1,4 @@
+alert("WELCOME TO OUR WEBSITE");
+PASS = prompt("ENTER YOUR PASS CODE");
+
+

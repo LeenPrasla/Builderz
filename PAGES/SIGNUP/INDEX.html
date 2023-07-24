@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>Sign up</title>
+</head>
+<style>
+    body{
+        background-color: aliceblue;
+    
+    }
+    .main{
+        margin-top: 100px;
+    }
+    #button {
+        color:white;
+        background-color:  #fdbe33;
+        border-radius: 8px;
+        padding: 10px;
+        width: 120px;
+        margin-bottom: 10px;
+
+    }
+    #button:hover{
+        background-color: thistle;
+        color: black;
+    }
+    #cho{
+        color: red;
+    }
+    .in1:focus{
+        background-color: thistle;
+        font-weight: bold;
+
+    }
+    input{
+        width: 300px;
+        border: 2px solid rgb(155, 159, 159);
+        border: 5px;
+        padding: 10px;
+    }
+    
+</style>
+
+<body>
+
+  <div class="main">
+
+    <center>
+        <table border="2" width="400" bgcolor="#fdbe33">
+            <tr>
+                <td>
+                    <center>
+                        <h1>CLIENT SIGN UP</h1>
+                    </center>
+                </td>
+            </tr>
+        </table>
+        <table border="2" width="400" >
+            <tr>
+                <td>
+                    <center> 
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!-- <form> -->
+                            <input type="text" name="user name" placeholder="Name" id="lname" class="in1">
+                            <br>
+                            <br>
+                            <input type="text" name="user father name" placeholder="Father Name" id="fname" class="in1">
+                            <br>
+                            <br>
+                            <input type="email" name="user eamil" placeholder="Email" size="20" id="mail" class="in1">
+                            <br>
+                            <br>
+                            <input type="password" name="user password" placeholder="Password" id="passwor" class="in1">
+                            
+                             
+                            
+                             
+                            <p id="cho"></p>
+                            <br>
+                            <button onclick="signup()" id="button">Submit</button>
+                           
+                            
+                    </center>
+                </td>
+            </tr>
+            <!-- </form> -->
+        </table>
+    </center>
+</div>
+
+</body>
+<script src="./sinup.js"></script>
+
+</html>
